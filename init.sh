@@ -12,6 +12,6 @@ wget -O /home/ericwalstrom/.ssh/authorized_keys https://raw.githubusercontent.co
 
 chown -R ericwalstrom:ericwalstrom /home/ericwalstrom
 
-rm -rf /etc/ssh/sshd_config.d/*
+#rm -rf /etc/ssh/sshd_config.d/*
 
-service sshd restart
+#service sshd restart
