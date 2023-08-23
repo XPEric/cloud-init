@@ -15,4 +15,4 @@ rm -rf /etc/ssh/sshd_config.d/*
 
 update-crypto-policies --set LEGACY
 
-systemctl sshd restart
+systemctl restart sshd
