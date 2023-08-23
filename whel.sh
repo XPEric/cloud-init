@@ -13,4 +13,6 @@ wget -O /home/ericwalstrom/.ssh/authorized_keys https://raw.githubusercontent.co
 
 rm -rf /etc/ssh/sshd_config.d/*
 
+update-crypto-policies --set LEGACY
+
 service sshd restart
